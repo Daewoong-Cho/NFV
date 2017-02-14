@@ -1,0 +1,64 @@
+// Example program
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class VNF{
+    public:
+        VNF(){ total_vnf =0;}
+        int no[100];
+        int cpu_req[100];
+        int bw_req[100];
+        
+        void add_vnf(int cpu, int bw){
+            no[total_vnf] = total_vnf+1;
+            cpu_req[total_vnf] = cpu;
+            bw_req[total_vnf] = bw;
+            total_vnf++;
+        }
+        
+        int getCnt(){
+            return total_vnf;   
+        }
+        
+        void print(){
+            for(int i=0;i<total_vnf;i++)
+                cout << "No:" << no[i] << ", CPU:" << cpu_req[i] << ", BW:" << bw_req[i] << endl;
+        }
+    private:
+        int total_vnf=0;
+};
+
+class parent{
+    public:
+        void test(){
+            cout << "parent" << endl;
+        }
+};
+
+class child: public parent{
+    public:
+        void test(){
+            cout << "child" << endl;
+        }    
+};
+
+int main()
+{
+    VNF vnf;
+    parent p;
+    child c;
+    
+    vnf.add_vnf(4, 10);
+    vnf.add_vnf(4, 10);
+    vnf.add_vnf(4, 10);
+    vnf.add_vnf(4, 10);
+    vnf.add_vnf(4, 10);
+    
+    vnf.print();
+    
+    p.test();
+    c.test();
+    
+}
