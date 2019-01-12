@@ -1,0 +1,176 @@
+Algorithm = BF SumLatency = 4589 SumVMs = 6 LeadTime(ms) = 98 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5763 SumVMs = 7 LeadTime(ms) = 70 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5780 SumVMs = 7 LeadTime(ms) = 66 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 6906 SumVMs = 8 LeadTime(ms) = 115 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5769 SumVMs = 7 LeadTime(ms) = 63 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5781 SumVMs = 7 LeadTime(ms) = 58 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 6959 SumVMs = 8 LeadTime(ms) = 54 Sorting = 0 Orderby = X 
+No Hosts
+No Hosts
+No Hosts
+No Hosts
+Algorithm = BF SumLatency = 4580 SumVMs = 6 LeadTime(ms) = 71 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 4599 SumVMs = 6 LeadTime(ms) = 64 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 6903 SumVMs = 8 LeadTime(ms) = 65 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 6910 SumVMs = 8 LeadTime(ms) = 63 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 6924 SumVMs = 8 LeadTime(ms) = 58 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 8070 SumVMs = 9 LeadTime(ms) = 53 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 6936 SumVMs = 8 LeadTime(ms) = 50 Sorting = 1 Orderby = C 
+No Hosts
+No Hosts
+No Hosts
+No Hosts
+Algorithm = BF SumLatency = 4564 SumVMs = 6 LeadTime(ms) = 107 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 5737 SumVMs = 7 LeadTime(ms) = 124 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 4597 SumVMs = 6 LeadTime(ms) = 61 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 5749 SumVMs = 7 LeadTime(ms) = 66 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 4604 SumVMs = 6 LeadTime(ms) = 54 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 9186 SumVMs = 10 LeadTime(ms) = 54 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 6920 SumVMs = 8 LeadTime(ms) = 82 Sorting = 1 Orderby = N 
+No Hosts
+No Hosts
+No Hosts
+No Hosts
+Algorithm = BF SumLatency = 4561 SumVMs = 6 LeadTime(ms) = 67 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 6880 SumVMs = 8 LeadTime(ms) = 90 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 6891 SumVMs = 8 LeadTime(ms) = 223 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 8008 SumVMs = 9 LeadTime(ms) = 98 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 5746 SumVMs = 7 LeadTime(ms) = 71 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 9202 SumVMs = 10 LeadTime(ms) = 166 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 8074 SumVMs = 9 LeadTime(ms) = 71 Sorting = 1 Orderby = B 
+No Hosts
+No Hosts
+No Hosts
+No Hosts
+Algorithm = BF SumLatency = 4561 SumVMs = 6 LeadTime(ms) = 74 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5739 SumVMs = 7 LeadTime(ms) = 99 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5746 SumVMs = 7 LeadTime(ms) = 65 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5757 SumVMs = 7 LeadTime(ms) = 99 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5761 SumVMs = 7 LeadTime(ms) = 60 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5766 SumVMs = 7 LeadTime(ms) = 72 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5775 SumVMs = 7 LeadTime(ms) = 81 Sorting = 0 Orderby = X 
+No Hosts
+No Hosts
+No Hosts
+No Hosts
+Algorithm = BF SumLatency = 4594 SumVMs = 6 LeadTime(ms) = 117 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 5767 SumVMs = 7 LeadTime(ms) = 96 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 5777 SumVMs = 7 LeadTime(ms) = 67 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 6935 SumVMs = 8 LeadTime(ms) = 56 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 8077 SumVMs = 9 LeadTime(ms) = 54 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 4633 SumVMs = 6 LeadTime(ms) = 55 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 8114 SumVMs = 9 LeadTime(ms) = 140 Sorting = 1 Orderby = C 
+No Hosts
+No Hosts
+No Hosts
+No Hosts
+Algorithm = BF SumLatency = 4551 SumVMs = 6 LeadTime(ms) = 182 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 6867 SumVMs = 8 LeadTime(ms) = 75 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 6878 SumVMs = 8 LeadTime(ms) = 120 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 6890 SumVMs = 8 LeadTime(ms) = 62 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 8040 SumVMs = 9 LeadTime(ms) = 57 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 5758 SumVMs = 7 LeadTime(ms) = 111 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 8066 SumVMs = 9 LeadTime(ms) = 51 Sorting = 1 Orderby = N 
+No Hosts
+No Hosts
+No Hosts
+No Hosts
+Algorithm = BF SumLatency = 4579 SumVMs = 6 LeadTime(ms) = 116 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 6912 SumVMs = 8 LeadTime(ms) = 80 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 5762 SumVMs = 7 LeadTime(ms) = 78 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 4617 SumVMs = 6 LeadTime(ms) = 61 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 8062 SumVMs = 9 LeadTime(ms) = 88 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 6934 SumVMs = 8 LeadTime(ms) = 59 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 6938 SumVMs = 8 LeadTime(ms) = 52 Sorting = 1 Orderby = B 
+No Hosts
+No Hosts
+No Hosts
+No Hosts
+Algorithm = BF SumLatency = 4570 SumVMs = 6 LeadTime(ms) = 76 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5735 SumVMs = 7 LeadTime(ms) = 187 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5741 SumVMs = 7 LeadTime(ms) = 190 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5746 SumVMs = 7 LeadTime(ms) = 80 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5757 SumVMs = 7 LeadTime(ms) = 138 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5759 SumVMs = 7 LeadTime(ms) = 52 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5767 SumVMs = 7 LeadTime(ms) = 118 Sorting = 0 Orderby = X 
+No Hosts
+No Hosts
+No Hosts
+No Hosts
+Algorithm = BF SumLatency = 4574 SumVMs = 6 LeadTime(ms) = 71 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 4604 SumVMs = 6 LeadTime(ms) = 118 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 4609 SumVMs = 6 LeadTime(ms) = 63 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 4601 SumVMs = 6 LeadTime(ms) = 183 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 5756 SumVMs = 7 LeadTime(ms) = 53 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 8044 SumVMs = 9 LeadTime(ms) = 56 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 9230 SumVMs = 10 LeadTime(ms) = 148 Sorting = 1 Orderby = C 
+No Hosts
+No Hosts
+No Hosts
+No Hosts
+Algorithm = BF SumLatency = 4581 SumVMs = 6 LeadTime(ms) = 70 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 5746 SumVMs = 7 LeadTime(ms) = 102 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 4601 SumVMs = 6 LeadTime(ms) = 63 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 6907 SumVMs = 8 LeadTime(ms) = 54 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 8051 SumVMs = 9 LeadTime(ms) = 100 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 8076 SumVMs = 9 LeadTime(ms) = 203 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 8090 SumVMs = 9 LeadTime(ms) = 133 Sorting = 1 Orderby = N 
+No Hosts
+No Hosts
+No Hosts
+No Hosts
+Algorithm = BF SumLatency = 4564 SumVMs = 6 LeadTime(ms) = 71 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 5737 SumVMs = 7 LeadTime(ms) = 65 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 4594 SumVMs = 6 LeadTime(ms) = 174 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 8022 SumVMs = 9 LeadTime(ms) = 63 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 4601 SumVMs = 6 LeadTime(ms) = 172 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 8054 SumVMs = 9 LeadTime(ms) = 57 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 9210 SumVMs = 10 LeadTime(ms) = 52 Sorting = 1 Orderby = B 
+No Hosts
+No Hosts
+No Hosts
+No Hosts
+Algorithm = BF SumLatency = 4563 SumVMs = 6 LeadTime(ms) = 79 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5721 SumVMs = 7 LeadTime(ms) = 96 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5728 SumVMs = 7 LeadTime(ms) = 68 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 6894 SumVMs = 8 LeadTime(ms) = 167 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 5757 SumVMs = 7 LeadTime(ms) = 74 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 6925 SumVMs = 8 LeadTime(ms) = 128 Sorting = 0 Orderby = X 
+Algorithm = BF SumLatency = 8097 SumVMs = 9 LeadTime(ms) = 53 Sorting = 0 Orderby = X 
+No Hosts
+No Hosts
+No Hosts
+No Hosts
+Algorithm = BF SumLatency = 4586 SumVMs = 6 LeadTime(ms) = 120 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 4612 SumVMs = 6 LeadTime(ms) = 152 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 4619 SumVMs = 6 LeadTime(ms) = 63 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 4619 SumVMs = 6 LeadTime(ms) = 106 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 6936 SumVMs = 8 LeadTime(ms) = 60 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 9236 SumVMs = 10 LeadTime(ms) = 54 Sorting = 1 Orderby = C 
+Algorithm = BF SumLatency = 6951 SumVMs = 8 LeadTime(ms) = 53 Sorting = 1 Orderby = C 
+No Hosts
+No Hosts
+No Hosts
+No Hosts
+Algorithm = BF SumLatency = 4574 SumVMs = 6 LeadTime(ms) = 70 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 4599 SumVMs = 6 LeadTime(ms) = 173 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 9188 SumVMs = 10 LeadTime(ms) = 66 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 6933 SumVMs = 8 LeadTime(ms) = 102 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 5781 SumVMs = 7 LeadTime(ms) = 60 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 6947 SumVMs = 8 LeadTime(ms) = 144 Sorting = 1 Orderby = N 
+Algorithm = BF SumLatency = 9252 SumVMs = 10 LeadTime(ms) = 116 Sorting = 1 Orderby = N 
+No Hosts
+No Hosts
+No Hosts
+No Hosts
+Algorithm = BF SumLatency = 4557 SumVMs = 6 LeadTime(ms) = 132 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 5727 SumVMs = 7 LeadTime(ms) = 68 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 4588 SumVMs = 6 LeadTime(ms) = 64 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 4572 SumVMs = 6 LeadTime(ms) = 62 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 6866 SumVMs = 8 LeadTime(ms) = 51 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 8006 SumVMs = 9 LeadTime(ms) = 53 Sorting = 1 Orderby = B 
+Algorithm = BF SumLatency = 8037 SumVMs = 9 LeadTime(ms) = 54 Sorting = 1 Orderby = B 
+No Hosts
+No Hosts
+No Hosts
+No Hosts

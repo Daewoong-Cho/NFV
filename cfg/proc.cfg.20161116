@@ -1,0 +1,51 @@
+ProcNo          11
+ProcType		TCP_SERVER
+ProcName        TCP_SERVER_TEST
+StartUpFlag     0
+LogFlag         0
+MaxRevokeCnt    100
+Command         tcp_server
+PortNo			30001
+LogFile			/home/david/log/tcp_server.log
+
+ProcNo          12
+ProcType		TCP_CLIENT
+ProcName        TCP_CLIENT_TEST
+StartUpFlag     0
+LogFlag         0
+MaxRevokeCnt    100
+Command         tcp_client
+IpAddr			192.168.56.101
+PortNo			30001
+LogFile			/home/david/log/tcp_client.log
+
+ProcNo          13
+ProcType		TCP_CLIENT
+ProcName        UDP_SERVER_TEST
+StartUpFlag     1
+LogFlag         0
+MaxRevokeCnt    100
+Command         udp_server
+IpAddr			10.0.2.15
+PortNo			30002
+LogFile			/home/david/log/udp_server.log
+
+ProcNo          14
+ProcType		TCP_CLIENT
+ProcName        UDP_CLIENT_TEST
+StartUpFlag     1
+LogFlag         0
+MaxRevokeCnt    100
+Command         udp_client
+IpAddr			10.0.2.15
+PortNo			30002
+LogFile			/home/david/log/udp_client.log
+
+ProcNo          14
+ProcType		GENERAL
+ProcName        PROC_TRANS
+StartUpFlag     1
+LogFlag         0
+MaxRevokeCnt    100
+Command         proc_trans
+LogFile			/home/david/log/proc_trans.log

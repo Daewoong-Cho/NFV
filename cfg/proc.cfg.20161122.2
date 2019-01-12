@@ -1,0 +1,122 @@
+#Virtual Machine
+
+ProcNo          1
+ProcType        VM
+VMNo		1
+vNICNo		1
+vSwitchNo	1
+pNICNo		1
+pSwitchNo	1
+StartUpFlag     1
+LogFlag         1
+MaxRevokeCnt    100
+Command         instance
+CPU_Limit	8
+Band_Limit 	100
+LogFile		/home/david/log/vm.log
+
+#Virtual NIC
+ProcNo          2
+ProcType        vNIC
+vNICNo		1
+StartUpFlag     1
+LogFlag         1
+MaxRevokeCnt    100
+Command         instance
+LogFile		/home/david/log/vnic.log
+
+#Virtual Switch
+ProcNo          3
+ProcType        vSwitch
+vSwitchNo	1
+StartUpFlag     1
+LogFlag         1
+MaxRevokeCnt    100
+Command         instance
+LogFile		/home/david/log/vswitch.log
+
+#Physical NIC
+ProcNo          4
+ProcType        pNIC
+pNICNo		1
+StartUpFlag     1
+LogFlag         1
+MaxRevokeCnt    100
+Command         instance
+LogFile		/home/david/log/pnic.log
+
+#Physical Switch
+ProcNo          5
+ProcType        pSwitch
+pSwitchNo	1
+StartUpFlag     1
+LogFlag         1
+MaxRevokeCnt    100
+Command         instance
+LogFile		/home/david/log/pswitch.log
+
+ProcNo          6
+ProcType        VM
+VMNo            2
+vNICNo          2
+vSwitchNo       1
+pNICNo          1
+pSwitchNo       1
+StartUpFlag     1
+LogFlag         1
+MaxRevokeCnt    100
+Command         instance
+CPU_Limit       8
+Band_Limit      100
+LogFile         /home/david/log/vm.log
+
+ProcNo          7
+ProcType        vNIC
+vNICNo          2
+StartUpFlag     1
+LogFlag         1
+MaxRevokeCnt    100
+Command         instance
+LogFile         /home/david/log/vnic.log
+
+ProcNo          8
+ProcType        VM
+VMNo            3
+vNICNo          3
+vSwitchNo       1
+pNICNo          1
+pSwitchNo       1
+StartUpFlag     1
+LogFlag         1
+MaxRevokeCnt    100
+Command         instance
+CPU_Limit       8
+Band_Limit      100
+LogFile         /home/david/log/vm.log
+
+ProcNo          9
+ProcType        vNIC
+vNICNo          3
+StartUpFlag     1
+LogFlag         1
+MaxRevokeCnt    100
+Command         instance
+LogFile         /home/david/log/vnic.log
+
+ProcNo          10
+ProcType        pNIC
+pNICNo          2
+StartUpFlag     1
+LogFlag         1
+MaxRevokeCnt    100
+Command         instance
+LogFile         /home/david/log/pnic.log
+
+ProcNo          11
+ProcType        pSwitch
+pSwitchNo       2
+StartUpFlag     1
+LogFlag         1
+MaxRevokeCnt    100
+Command         instance
+LogFile         /home/david/log/pswitch.log

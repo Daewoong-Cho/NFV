@@ -1,0 +1,175 @@
+#ifndef	_FO_H_
+#define	_FO_H_
+
+/*-------------------------------------------------------------------------- 
+ * 옵션 마스터
+ * STRUC_OPT_MAST
+ *-------------------------------------------------------------------------*/
+
+typedef struct {
+    int	 bsop_date						  ;       /* 영업일자(입회일자)                                               */
+    char stnd_iscd                   [ 12];       /* 종목코드                                                         */
+    char issu_srno                   [  6];       /* 종목SEQ                                                          */
+    char prod_cls_code               [ 10];       /* 파생품목ID(상품구분코드) - 예) KRIDXFUK2I                        */
+    char shrn_iscd                   [  9];       /* 종목단축코드-6차                                                 */
+    char kor_isnm                    [ 80];       /* 종목한글명                                                       */
+    char kor_shrn_isnm               [ 40];       /* 종목한글약명                                                     */
+    char eng_isnm                    [ 80];       /* 종목영문명                                                       */
+    char eng_shrn_isnm               [ 40];       /* 종목영문약명                                                     */
+    char lstn_date                   [  8];       /* 상장일자                                                         */
+    char lstn_abrg_date              [  8];       /* 상장폐지일자                                                     */
+    char spead_stnd_issu_cls_code    [  1];       /* 스프레드기준종목구분코드 - F:원월종목, N:근월종목                */
+    char last_stlm_mthd_code         [  1];       /* 최종결제방법코드                                                 */
+    char sign1                       [  1];       /* SIGN부호                                                         */
+    char optn_mxpr                   [ 12];       /* 상한가-6차                                                       */
+    char sign2                       [  1];       /* SIGN부호                                                         */
+    char optn_llam                   [ 12];       /* 하한가-6차                                                       */
+    char optn_sdpr                   [ 12];       /* 기준가-6차                                                       */
+    char unas_cls_code               [  3];       /* 기초자산ID                                                       */
+    char rght_evnt_type_code         [  1];       /* 권리행사유형코드 - A:미국형,E:유럽형,Z:해당없음                  */
+    char spead_type_code             [  2];       /* 스프레드유형코드 - T0:해당없음       T1:최근월+차근월            */
+                                                  /*                    t2:최근월+2차근월 T3:최근월+3차근월           */
+                                                  /*                    t4:최근월+4차근월 T5:최근월+5차근월           */
+                                                  /*                    t6:최근월+6차근월                             */
+
+    char spead_nmsc_iscd             [ 12];       /* 스프레드근월물종목코드                                           */
+    char spead_fmsc_iscd             [ 12];       /* 스프레드원월물종목코드                                           */
+    char last_tr_date                [  8];       /* 최종거래일자                                                     */
+    char last_stlm_date              [  8];       /* 최종결제일자                                                     */
+    char mmsc_cls_code               [  1];       /* 월물구분코드 1:최근월물, n:n번째도래근월물                       */
+    char mtrt_date                   [  8];       /* 만기일자                                                         */
+    char optn_acpr                   [ 17];       /* 행사가격-6차                                                     */
+    char adjs_cls_code               [  1];       /* 조정구분코드                                                     */
+    char optn_tr_unit                [ 17];       /* 거래단위-6차 - 1계약에 해당하는 기초자산수량                     */
+                                                  /* (3년국채선물:1억원, 달러선물:5만달러)                            */
+    char tr_mltl                     [ 21];       /* 거래승수-6차 - 약정대금 및 결제시 사용하는 계산승수              */
+                                                  /* (KOSPI200선물:50만, KOSPI200옵션:10만,                           */
+                                                  /* 국채선물:100만, CD선물:125만)                                    */
+    char mrkt_prmg_cls_code          [  1];       /* 시장조성구분코드 - 0:미시장조성종목                              */
+                                                  /* 1:당일시장조성종목                                               */
+                                                  /* 2:과거시장조성종목                                               */
+    char lstn_type_code              [  1];       /* 상장유형코드 -   1:신규상장                                      */
+                                                  /*                  2:추가상장                                      */
+                                                  /*                  3:기존종목                                      */
+                                                  /*                  4:최초상장                                      */
+                                                  /*                  5:종목조정                                      */
+                                                  /*                  6:특별설정                                      */
+    char atm_prc                     [ 12];       /* 등가격 9(10)V9(2) -6차                                           */
+    char adjs_reas_code              [  2];       /* 조정사유코드 -   00:해당사항없음, 01:권리락, 02:배당락,          */
+                                                  /*                  03:분배락, 04:권배락 05:중간배당락,             */
+                                                  /*                  06:권리중간배당락, 99:기타                      */
+    char unas_stnd_iscd              [ 12];       /* 기초자산종목코드 (5차추가)                                       */
+    char unas_clpr                   [ 12];       /* 기초자산종가 9(10)V9(2) -6차                                     */
+    char rmnn_dynu                   [  7];       /* 잔존일수                                                         */
+    char adjs_sdpr                   [ 17];       /* 조정기준가격 9(10)V9(2) -6차 -                                   */
+                                                  /* 주식파생상품의 기초주권 조정기준가격                             */
+    char stnd_prc_cls_code           [  2];       /* 기준가격구분코드-11:전일정산가                                   */
+                                                  /* 12:전일기준가(거래성립전 종가미형성)                             */
+                                                  /* 13:당일이론가(거래성립전 종가미형성)                             */
+                                                  /* 14:전일기세(거래성립전 기세형성)                                 */
+                                                  /* 15:당일이론가(거래성립전 기세형성)                               */
+                                                  /* 16:조정된 전일정산가                                             */
+                                                  /* 17:조정된 전일기준가(거래성립전 종가미형성)                      */
+                                                  /* 18:조정된 전일기세(거래성립전 기세형성)                          */
+                                                  /* 19:전일 대상자산 종가(이론가없는 상품)                           */
+                                                  /* 21:전일증거금기준가                                              */
+                                                  /* 22:전일기준가(거래성립전 종가미형성)                             */
+                                                  /* 23:당일이론가(거래성립전 종가미형성)                             */
+                                                  /* 24:전일기세(거래성립전 기세                                      */
+    char deal_stnd_prc_cls_code      [  1];       /* 매매용기준가격구분코드- 0:해당없음                               */
+                                                  /* 1:실세                                                           */
+                                                  /* 2:기세                                                           */
+                                                  /* 3:이론가                                                         */
+                                                  /* 4:대상자산종가                                                   */
+    char sign3                       [  1];       /* SIGN부호                                                         */
+    char prdy_adjs_clpr              [ 17];       /* 전일조정종가 9(9)V9(8) -6차                                      */
+    char dscs_bltr_trgt_yn           [  1];       /* 협의대량매매대상여부 - Y:협의매매상품, N:대상아님                */
+                                                  /* 가능품목:3년물국채선물, 미국달러선물,                            */
+                                                  /* 유로선물, 엔선물                                                 */
+    char prdy_marg_sdpr              [ 17];       /* 전일증거금기준가격-6차                                           */
+    char prdy_marg_sdpr_cls_code     [  2];       /* 전일증거금기준가격구분코드-6차                                   */
+                                                  /* 20:증거금 기준가 없음                                            */
+                                                  /* 21:당일종가(실세)                                                */
+                                                  /* 22:당일기세(거래성립후기세)                                      */
+                                                  /* 23:전일증거금기준가(거래성립후 종가미 형성)                      */
+                                                  /* 24:당일이론가(거래성립후 종가미형성)                             */
+                                                  /* 25:조정전일증거금기준가(거래성립후종가미형성)                    */
+    char optn_thpr                   [ 15];       /* 정산이론가격                                                     */
+    char optn_stnd_thpr              [ 15];       /* 기준이론가격-6차 추가 9(9)V(6)                                   */
+    char optn_prdy_excl_prc          [ 17];       /* 전일정산가격 9(9)V9(8)-6차                                       */
+    char trht_yn                     [  1];       /* 거래정지여부 - Y, N                                              */
+    char crbr_mxpr                   [ 12];       /* Circuit_Breakers상한가 9(10)V9(2) -6차                           */
+    char crbr_llam                   [ 12];       /* Circuit_Breakers하한가 9(10)V9(2)-6차                            */
+    char usiq_acpr                   [ 17];       /* 조회용행사가격 9(9)V9(8) -6차                                    */
+    char atm_cls_code                [  1];       /* ATM구분코드 - 0:선물, 1:ATM, 2:ITM, 3:OTM                        */
+    char last_tr_day_yn              [  1];       /* 최종거래일여부                                                   */
+    char dmix_fv_val                 [ 15];       /* 배당가치 9(9)V9(6) -6차 - 주식 및 주가지수 상품에만 적용됨       */
+                                                  /* - 선물 : 배당 미래가치                                           */
+                                                  /* - 옵션 : 배당 현재가치                                           */
+    char sign4                       [  1];       /* SIGN부호                                                         */
+    char optn_prdy_clpr              [ 12];       /* 전일종가 9(10)V9(2) -6차                                         */
+    char prdy_clpr_cls_code          [  1];       /* 전일종가구분코드 - 1:실세, 2:기세, 3:거래무                      */
+    char sign5                       [  1];       /* SIGN부호                                                         */
+    char optn_prdy_oprc              [ 12];       /* 전일시가 9(10)V9(2) -6차                                         */
+    char sign6                       [  1];       /* SIGN부호                                                         */
+    char optn_prdy_hgpr              [ 12];       /* 전일고가 9(10)V9(2) -6차                                         */
+    char sign7                       [  1];       /* SIGN부호                                                         */
+    char optn_prdy_lwpr              [ 12];       /* 전일저가 9(10)V9(2) -6차                                         */
+    char frst_cntg_date              [  8];       /* 최초체결일자                                                     */
+    char prdy_last_cntg_hour         [  8];       /* 전일최종체결시각                                                 */
+    char prdy_excl_prc               [  2];       /* 전일정산가격구분코드-6차                                         */
+                                                  /* 10:정산가없음                                                    */
+                                                  /* 11:당일종가(실세)                                                */
+                                                  /* 12:당일기세(거래성립후기세)                                      */
+                                                  /* 13:전일정산가(거래성립후 종가미형성)                             */
+                                                  /* 14:당일이론가(거래성립후 종가미형성)                             */
+                                                  /* 15:스프레드분 종가                                               */
+                                                  /* 16:조정된 전일 정산가                                            */
+                                                  /* 17:대상자산 종가(이론가없는 상품)                                */
+    char sign14                      [  1];       /* SIGN부호-6차                                                     */
+    char excl_prc_thpr_dprt          [ 12];       /* 정산가격이론가격괴리율 9(6)V9(6) -9차                            */
+    char prdy_otst_stpl_qty          [ 10];       /* 전일미결제약정수량-6차                                           */
+    char sign8                       [  1];       /* SIGN부호                                                         */
+    char prdy_askp_prc               [ 12];       /* 전일매도우선호가가격-6차                                         */
+    char sign9                       [  1];       /* SIGN부호                                                         */
+    char prdy_bidp_prc               [ 12];       /* 전일매수우선호가가격 9(10)V9(2) -6차                             */
+    char iv                          [ 10];       /* 내재변동성-9차(X(5)->9(6)V9(4)                                   */
+    char unas_max_flxb_type_code     [  1];       /* 기초자산최대변동폭유형코드 - 1:%, 2:절대값                       */
+    char unas_max_flxb               [  6];       /* 기초자산최대변동폭 9(4)V9(2) -6차                                */
+    char sign10                      [  1];       /* SIGN부호                                                         */
+    char lstn_hgpr                   [ 12];       /* 상장중최고가 9(10)V9(2) -6차                                     */
+    char sign11                      [  1];       /* SIGN부호                                                         */
+    char lstn_lwpr                   [ 12];       /* 상장중최저가 9(10)V9(2) -6차                                     */
+    char sign12                      [  1];       /* SIGN부호                                                         */
+    char dryy_hgpr                   [ 12];       /* 연중최고가 9(10)V9(2) -6차                                       */
+    char sign13                      [  1];       /* SIGN부호                                                         */
+    char dryy_lwpr                   [ 12];       /* 연중최저가 9(10)V9(2) -6차                                       */
+    char lstn_hgpr_date              [  8];       /* 상장중최고가일자                                                 */
+    char lstn_lwpr_date              [  8];       /* 상장중최저가일자                                                 */
+    char dryy_hgpr_date              [  8];       /* 연중최고가일자                                                   */
+    char dryy_lwpr_date              [  8];       /* 연중최저가일자                                                   */
+    char anul_stnd_dynu              [  8];       /* 연간기준일수                                                     */
+    char mntl_tr_dynu                [  8];       /* 월간거래일수                                                     */
+    char anul_tr_dynu                [  8];       /* 연간거래일수                                                     */
+    char prdy_cntg_csnu              [ 16];       /* 전일체결건수                                                     */
+    char prdy_cntg_qty               [ 12];       /* 전일체결수량                                                     */
+    char prdy_tr_pbmn                [ 22];       /* 전일거래대금 - 단위:원                                           */
+    char prdy_dscs_bltr_cntg_qty     [ 12];       /* 전일협의대량매매체결수량-6차                                     */
+    char prdy_dscs_bltr_cntg_pbmn    [ 22];       /* 전일협의대량매매거래대금 - 단위:원                               */
+    char cd_mnrt                     [  6];       /* CD금리 9(3)V9(3)                                                 */
+    char otst_limt_cnrc_qty          [  8];       /* 미결제한도계약수-7차 추가                                        */
+    char blng_prgp_code              [  4];       /* 소속상품군-7차 추가                                              */
+    char prgp_ofst_rate              [  5];       /* 상품군 옵셋율9(3)V9(2)-7차 추가                                  */
+    char lmts_aspr_cond_cls_code     [  1];       /* 지정가호가조건구분코드 - 0:불가, 1:가능(FAS,FOK,FAK가능),        */
+    char mrpr_aspr_cond_cls_code     [  1];       /* 시장가호가조건구분코드 - 2:가능(FAS만가능)                       */
+    char cndn_lmts_aspr_cls_code     [  1];       /* 조건부지정가호가조건구분코드                                     */
+    char pmpr_lmts_aspr_cls_code     [  1];       /* 최유리지정가호가조건구분코드                                     */
+    char efp_trgt_yn                 [  1];       /* EFP  거래대상 여부 - Y/N                                         */
+    char flex_trgt_yn                [  1];       /* FLEX 거래대상 여부 - Y/N                                         */
+    char efp_prdy_cntg_qty           [ 12];       /* EFP  전일체결수량                                                */
+    char efp_prdy_tr_pbmn            [ 22];       /* EFP  전일거래대                                                  */
+    char close_yn                    [  1];       /* 휴장 여부 - Y/N                                                  */
+    char filler                      [133];       /* 134 -> 133                                                       */
+} STRUC_OPT_MAST;
+
+#endif
